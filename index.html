@@ -9,14 +9,14 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="h-screen">
   <header class="bg-white border-b border-gray-200">
-    <nav class="flex ml-60 my-2">
+    <nav class="flex ml-60 mb-2  mt-0">
       <div>
         <span><i class="fab fa-linkedin text-4xl pr-4 text-blue-600"></i></span>
         <span>
           <i class="fas fa-search"></i>
-          <input class="input" type="text" name="text" id="text">
+          <input class="input focus:outline-none" type="text" name="text" id="text">
         </span>
       </div>
       <ul class="flex pl-10 text-xl">
@@ -59,15 +59,17 @@
   <main class="grid grid-cols-3 gap-8">
     <section class="mt-12">
       <div class="h-60 border grid items-center rounded-lg ml-32">
-        <div>
-          <i class="fas fa-camera"></i>
+        <div class="flex justify-center items-center">
+          <div class="mt-4 flex justify-center items-center border rounded-full h-20 w-20 inline-block">
+            <i class="fas fa-camera text-2xl"></i>
+          </div>
         </div>
-        <h3>Welcome, Stephanie</h3>
-        <span>Add a photo</span>
+        <h3 class="text-center">Welcome, Stephanie</h3>
+        <span class="text-center">Add a photo</span>
         <p class="border-b border-gray-200"></p>
         <p>Connections</p>
-        <span>7</span>
         <p>Grow your network</p>
+        <span>Invitation</span>
         <p class="border-b border-gray-200"></p>
         <p>Access exclusive tools & insights</p>
         <p>Try premium for free</p>
