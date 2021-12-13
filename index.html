@@ -11,7 +11,7 @@
 </head>
 <body class="h-screen">
   <header class="bg-white border-b border-gray-200">
-    <nav class="flex ml-60 mb-2  mt-0">
+    <nav class="flex justify-evenly mb-2  mt-0 pt-2">
       <div>
         <span><i class="fab fa-linkedin text-4xl pr-4 text-blue-600"></i></span>
         <span>
@@ -19,26 +19,26 @@
           <input class="input focus:outline-none" type="text" name="text" id="text">
         </span>
       </div>
-      <ul class="flex pl-10 text-xl">
+      <ul class="flex text-xl">
         <li class="pl-10 flex flex-col items-center">
           <i class="fas fa-home"></i>
-          <span class="text-base">Home</span>
+          <span class="text-sm">Home</span>
         </li>
         <li class="pl-11 flex flex-col items-center">
           <i class="fas fa-user-friends"></i>
-          <span class="text-base">My Network</span>
+          <span class="text-sm">My Network</span>
         </li>
         <li class="pl-11 flex flex-col items-center">
           <i class="fas fa-briefcase"></i>
-          <span class="text-base">Jobs</span>
+          <span class="text-sm">Jobs</span>
         </li>
         <li class="pl-11 flex flex-col items-center">
           <i class="far fa-comment-dots"></i>
-          <span class="text-base">Messaging</span>
+          <span class="text-sm">Messaging</span>
         </li>
         <li class="pl-11 flex flex-col items-center">
           <i class="fas fa-bell"></i>
-          <span class="text-base">Notifications</span>
+          <span class="text-sm">Notifications</span>
         </li>
         <li class="pl-11 flex flex-col items-center">
           <i class="fas fa-user-circle"></i>
@@ -48,7 +48,7 @@
         </li>
         <li class="pl-7 flex flex-col items-center">
           <i class="fas fa-th"></i>
-          <span class="text-base">Work<i class="fa fa-caret-down"></i></span>
+          <span class="text-sm">Work<i class="fa fa-caret-down"></i></span>
         </li>
         <li class="pl-4 text-sm">
           <span>Try Premium for <br> free</span>
@@ -56,9 +56,9 @@
       </ul>
     </nav>
   </header>
-  <main class="flex justify-center mt-12">
+  <main class="flex justify-center mt-12 mx-36">
     <section class="mr-7">
-      <div class="h-96 border grid items-center rounded-lg">
+      <div class="h-96 bg-white border grid items-center rounded-lg">
         <div class="flex justify-center items-center">
           <div class="mt-4 flex justify-center items-center border rounded-full h-20 w-20 inline-block">
             <i class="fas fa-camera text-2xl"></i>
@@ -76,7 +76,7 @@
         <p class="border-b border-gray-200"></p>
         <p class="grow">My items</p>
       </div>
-      <div>
+      <div class="bg-white">
         <p class="text-blue-400">Groups</p>
         <p class="text-blue-400">Events</p>
         <p class="text-blue-400">Followed Hashtags</p>
@@ -84,13 +84,13 @@
         <p class="text-center colour">Discover more</p>
       </div>
     </section>
-    <section>
-      <div class="bg-white rounded-lg w-fit h-28">
-        <span class="flex ml-4 pt-3">
-          <i class="fas fa-user-circle text-5xl"></i>
-          <input type="text" placeholder="Start a post" class="pt-3 pb-3 ml-4 pl-4 w-5/6 rounded-3xl border border-gray-300">
-        </span>
-        <div class="flex justify-between ml-4 py-4">
+    <section class="post-input">
+      <div class="bg-white rounded-lg h-1/5">
+        <div class="flex ml-4 pt-3">
+          <i class="fas fa-user-circle text-5xl text-gray-600"></i>
+          <input type="text" placeholder="Start a post" class="pt-3 pb-3 ml-2 pl-4 w-10/12 rounded-3xl border border-gray-300">
+        </div>
+        <div class="flex justify-evenly ml-4 pt-4 pb-16">
           <div class="pr-8">
             <i class="text-2xl far fa-image text-blue-400"></i>
             <span class="pl-2.5">Photo</span>
@@ -109,11 +109,13 @@
           </div>
         </div>
       </div>
-      <div class="border border-gray-nickel-100 mt-4">
+      <div class="border border-gray-400 mt-4">
       </div>
-      <div class="h-96 border rounded-lg mt-4"></div>
+      <div class="h-96 bg-white border rounded-lg mt-4"></div>
     </section>
-    <section class="h-96 ml-7 border rounded-lg w-80"></section>
+    <section>
+      <div class="bg-white h-96 ml-7 border rounded-lg w-80"></div>
+    </section>
   </main>
 </body>
 </html>

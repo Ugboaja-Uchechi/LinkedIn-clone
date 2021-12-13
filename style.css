@@ -21,3 +21,7 @@ body {
 .grow {
   color: #434343;
 }
+
+.post-input {
+  width: 42%;
+}
