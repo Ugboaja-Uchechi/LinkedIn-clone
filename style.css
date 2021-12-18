@@ -23,5 +23,13 @@ body {
 }
 
 .post-input {
-  width: 35re;
+  width: 35rem;
+}
+
+.colour-3 {
+  color: #191919;
+}
+
+.p-colour {
+  color: #B4B4B4;
 }
