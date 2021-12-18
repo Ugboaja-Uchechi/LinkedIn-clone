@@ -33,3 +33,17 @@ body {
 .p-colour {
   color: #B4B4B4;
 }
+
+.p-width {
+  width: 12.5rem;
+}
+
+.p-2-width {
+  width: 12.2rem;
+}
+
+.p-3-width {
+  width: 12.7rem;
+}
+
+
